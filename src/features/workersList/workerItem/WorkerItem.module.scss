@@ -1,0 +1,24 @@
+@import "../../../variables.scss";
+
+.cardWorker {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   height: 100%;
+   text-decoration: none;
+   color: #000000;
+   background: $BG_COLOR;
+   padding: 15px;
+   border-radius: 15px;
+   border-bottom: solid 3px #a5a5a5;
+
+   &:hover {
+      cursor: pointer;
+   }
+}
+
+.name {
+   font-size: 24px;
+   font-weight: bold;
+   color: $BRAND_COLOR;
+}

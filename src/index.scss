@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+.html,
+body {
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+   background: $BG_COLOR;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

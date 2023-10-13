@@ -1,0 +1,80 @@
+@import "../../../variables.scss";
+
+.filterWrapper {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+   background: #ffffff;
+   border-radius: 15px;
+   height: 40px;
+}
+
+.label {
+   font-weight: bold;
+   color: $BRAND_COLOR;
+}
+
+.labelFilter {
+   font-weight: bold;
+}
+
+.select {
+   width: 200px;
+}
+.sortWrapper {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+   background: #ffffff;
+   border-radius: 15px;
+   height: 40px;
+}
+
+.button {
+   text-decoration: underline;
+   font-size: 15px;
+   padding: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 0;
+   background: transparent;
+   border-radius: 15px;
+   color: #000000;
+
+   &:hover {
+      cursor: pointer;
+      color: $BRAND_COLOR;
+   }
+}
+
+.filterPanel {
+   display: flex;
+   gap: 10px;
+   width: 100%;
+}
+
+@media (max-width: 1320px) {
+   .filterPanel {
+      flex-direction: column;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 710px) {
+   .filterWrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      height: 100%;
+   }
+
+   .sortWrapper {
+      gap: 5px;
+      flex-direction: column;
+      height: 100%;
+   }
+}

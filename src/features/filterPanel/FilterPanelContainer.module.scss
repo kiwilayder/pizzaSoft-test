@@ -1,0 +1,50 @@
+@import "../../variables.scss";
+
+.frameFilter {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background: $BG_COLOR;
+   align-items: center;
+   gap: 10px;
+}
+
+@media (max-width: 1320px) {
+   .frameFilter {
+      display: block;
+   }
+
+   .addWorker {
+      margin-top: 10px;
+   }
+
+   .buttonWrapper {
+      display: flex;
+      justify-content: center;
+   }
+}
+
+.filter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.addWorker {
+   text-decoration: none;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 160px;
+   height: 30px;
+   border: 0;
+   background: $BRAND_COLOR;
+   padding: 5px;
+   border-radius: 15px;
+   color: #ffffff;
+
+   &:hover {
+      cursor: pointer;
+   }
+}

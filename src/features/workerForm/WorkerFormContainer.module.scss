@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.formWrapper {
+   margin: 50px auto;
+   padding: 15px;
+   height: 100%;
+   width: 60vw;
+   background: #ffffff;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+@media (max-width: 1320px) {
+   .formWrapper {
+      width: 80vw;
+   }
+}

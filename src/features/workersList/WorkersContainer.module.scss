@@ -1,0 +1,16 @@
+.mainFrame {
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   margin: 50px auto;
+   padding: 15px;
+   width: 85%;
+   height: 100%;
+   background: #ffffff;
+}
+
+@media (max-width: 710px) {
+   .mainFrame {
+      margin: 10px auto;
+   }
+}
