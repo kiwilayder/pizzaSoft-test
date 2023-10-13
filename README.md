@@ -1,7 +1,5 @@
 # React test PizzaSoft
 
-### Demo:
-
 ### Start
 
 1. `yarn install` - install all dependencies
